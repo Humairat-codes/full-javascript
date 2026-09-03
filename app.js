@@ -16,3 +16,15 @@ else{
     console.log(`${name} is not a student`);
     
 }
+// comparison operators (>,<,===,!==,>=,<=,==)
+let x = 100;
+let y = 200;
+console.log(x>y);
+console.log(x<y);
+console.log(x>=y);
+console.log(x<=y);
+console.log(x===y);
+console.log(x!==y);
+let z = '200';
+console.log(y==z); //true
+console.log(y!=z); //false
