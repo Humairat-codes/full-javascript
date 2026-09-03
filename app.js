@@ -78,6 +78,24 @@ let msg = `My favorite Anime character is ${upperCase} because he is intelligent
 msg += `. He is from anime "Death Note`;
 console.log(msg);
 
+// Type conversion 
+let money =  "100";
+console.log(typeof money); //string
+// converting string to number
+// money = parseInt(money);
+// money = +money;
+// money = Number(money);
+// console.log(typeof money); 
+// number to string
+let p = 100000;
+// p = p.toString();
+// p = String(p);
+// console.log(typeof p);
 
 
+// decimal string to float
+pi = "3.14";
+console.log(typeof pi);
+pi = parseFloat(pi);
+console.log(typeof pi);
 
