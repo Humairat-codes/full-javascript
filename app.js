@@ -98,4 +98,3 @@ pi = "3.14";
 console.log(typeof pi);
 pi = parseFloat(pi);
 console.log(typeof pi);
-
