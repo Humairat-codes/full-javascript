@@ -35,17 +35,37 @@ else{
 // console.log(greeting);
 
 // password validation
+
 let password = prompt("Enter password");
+
 if(password.length == 8){
-    console.log("Welcome");    
+    alert("Welcome");    
 }
-else if(password.length <8){
+else if(password.length <= 8){
     alert("PASSWORD IS TOO SHORT");
 }
-else if(password.length > 8){
+else if(password.length >= 8){
     alert("password is TOO LONG");
 }
 else{
-    console.log("Enter a valud password");
-    
+    console.log("Enter a value password");   
 }
+    
+// SWITCH - CASE
+let fruit = prompt("fRUIT?");
+switch(fruit){
+    case "Banana":
+        alert("Banana is good!");
+        break;
+    case "Orange":
+        alert("I'm not a fan of orange");
+        break;
+    case "Apple":
+        alert("How you like them apples?");
+        break;
+    default:
+        
+        alert(`I HAVE NEVER EVER HEARD OF ${fruit.toUpperCase()}!`);
+}
+
+
