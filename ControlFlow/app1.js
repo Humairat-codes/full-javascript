@@ -49,18 +49,35 @@ const mixedArr = ["hey",["bonjour","salam","Hola"],"Anneyoeng haseayo",123,true]
 // ARRAY TECHNIQUES 
 let a1 = [8,9,5,6];
 a2=a1.concat([4,88,99,65]);
-console.log(a2.includes(88));
-console.log(a1.push([10,55],[12,88],990,88));
-console.log(a1);
-console.log(a1.unshift(13));
+// console.log(a2.includes(88));
+// console.log(a1.push([10,55],[12,88],990,88));
+// console.log(a1);
+// console.log(a1.unshift(13));
 
-console.log(a1.pop());
-console.log(a1.shift());
-console.log(a1.sort());
-console.log(a1.slice(3,5));
-console.log(a1.join("*"));
+// console.log(a1.pop());
+// console.log(a1.shift());
+// console.log(a1.sort());
+// console.log(a1.slice(3,5));
+// console.log(a1.join("*"));
 
-console.log(a1.splice());
+// console.log(a1.splice());
 
 
-console.log(a1);
+// console.log(a1.reverse());
+
+
+// OBJECTS
+// const person = {
+//     name:"Humaira",
+//     age:21,
+//     hobbies:["coding","singing","sleeping","blogging"]
+// }
+// console.log(person["name"]);
+// console.log(person["hobbies"]);
+// console.log(person["age"]);
+
+// person.pets = "Oggy";
+// console.log(person);
+
+// delete person.age;
+// console.log(person);
