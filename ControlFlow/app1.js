@@ -81,3 +81,13 @@ a2=a1.concat([4,88,99,65]);
 
 // delete person.age;
 // console.log(person);
+
+let car = {
+    type: "Toyota",
+    model : "xyz",
+    color:"white"
+}
+console.log(typeof car);
+car.type = "BMW";
+car.wheels = 4;
+console.log(car);
