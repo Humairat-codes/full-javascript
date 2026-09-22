@@ -1,0 +1,11 @@
+{
+    "name": "John Doe",
+    "age":20,
+    "hobbie":["reading","writing","exercise","coding"],
+    "employee":true,
+    "address":{
+        "city":"NY",
+        "street no":123,
+        "pin code":1010
+    }
+}
