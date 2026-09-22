@@ -36,19 +36,24 @@ console.log(!true);
 console.log(!false);
 */
 
-
 // ARRAYS
-const favSingers = ["Me","myself","I"]
+const favSingers = ["Me", "myself", "I"];
 // console.log(favSingers[0]);
-const favNumbers = [1,2,3,4,5,6,8,9];
-const mixedArr = ["hey",["bonjour","salam","Hola"],"Anneyoeng haseayo",123,true]
+const favNumbers = [1, 2, 3, 4, 5, 6, 8, 9];
+const mixedArr = [
+  "hey",
+  ["bonjour", "salam", "Hola"],
+  "Anneyoeng haseayo",
+  123,
+  true,
+];
 // for(let i =0;i<mixedArr.length;i++){
 //     console.log(mixedArr[i]);
-    
+
 // }
-// ARRAY TECHNIQUES 
-let a1 = [8,9,5,6];
-a2=a1.concat([4,88,99,65]);
+// ARRAY TECHNIQUES
+let a1 = [8, 9, 5, 6];
+a2 = a1.concat([4, 88, 99, 65]);
 // console.log(a2.includes(88));
 // console.log(a1.push([10,55],[12,88],990,88));
 // console.log(a1);
@@ -62,9 +67,7 @@ a2=a1.concat([4,88,99,65]);
 
 // console.log(a1.splice());
 
-
 // console.log(a1.reverse());
-
 
 // OBJECTS
 // const person = {
@@ -83,11 +86,129 @@ a2=a1.concat([4,88,99,65]);
 // console.log(person);
 
 let car = {
-    type: "Toyota",
-    model : "xyz",
-    color:"white"
-}
-console.log(typeof car);
+  type: "Toyota",
+  model: "xyz",
+  color: "white",
+};
+// console.log(typeof car);
 car.type = "BMW";
 car.wheels = 4;
-console.log(car);
+// console.log(car);
+
+// DRY - FUNCTION
+// function name(parameters){
+//     statements
+// }
+function greet(name) {
+  console.log("HELLO, " + name + " !!");
+}
+// greet("batman"); <- call
+function adder(x, y) {
+  let sum = Number(x) + Number(y);
+  return sum;
+}
+// console.log(adder("5",8));
+// console.log(adder("5","8"));
+// console.log(adder(5,"8"));
+// console.log(adder(5,8));
+// console.log(adder("a","b"));
+
+// function keyword is HEART
+
+// function multiplier(a: any, b: any): number
+function multiplier(a, b) {
+  return Number(a) * Number(b);
+}
+// console.log(multiplier(10,10));
+
+// FUNCTION DECLARATION VS FUNCTION EXPRESSION
+// DECLARATION
+// greetings("Light Yagamai");
+function greetings(name) {
+  console.log(`Hello there, ${name}`);
+}
+// EXPRESSION
+// greeting("L Lawliet"); - error
+const greeting = function (name) {
+  console.log(`Hey, ${name}`);
+};
+// greeting("L Lawliet");
+
+function showcALLBACK() {
+  const val = 100;
+}
+showcALLBACK();
+
+function baby() {
+  console.log("zx54zx5");
+}
+
+function take(name, fx) {
+  console.log(name);
+  fx();
+}
+function fx() {
+  console.log("heyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
+  se();
+}
+function se() {
+  console.log("HELLO");
+}
+// take("Doraemon",fx);
+
+function showCalFunc(fn) {
+  const val = 10;
+  fn(val);
+}
+function fn(val) {
+  console.log(val);
+}
+// showCalFunc(fn);
+
+// SCOPE - global variable(decalred outside the block,accessible everywhere), local scope variable(declared and accessible inside a block)
+let msg = "hello"; //global
+{
+  let msg2 = "hey"; //local
+  // console.log(msg2);
+  // console.log(msg);
+}
+// console.log(msg);
+// console.log(msg2); ERROR
+
+const person = {
+  name: "Alex",
+  age: 30,
+  greet: function () {
+    console.log(person.name);
+    console.log(person.age);
+  },
+};
+// person.greet();
+
+// JSON
+const person1 = {
+  name: "John Doe",
+  age: 20,
+  hobbie: ["reading", "writing", "exercise", "coding"],
+  employee: true,
+  address: {
+    city: "NY",
+    "street no": 123,
+    "pin code": 1010,
+  },
+};
+
+// JSON.stringify()
+
+const text2 = JSON.stringify(person1);
+// console.log(text2);
+
+// JSON.parse() : json to JS obj
+const JSobj = JSON.parse(text2);
+// console.log(JSobj);
+
+// dates and time
+
+const d = new Date();
+console.log(d);
+
