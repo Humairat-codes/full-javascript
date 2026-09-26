@@ -282,4 +282,14 @@ greetings3 = name => {
 // greetings3("Barbie");
 
 double = number  => number *2;
-console.log(double(100));
+// console.log(double(100));
+
+setTimeout(()=>{
+  console.log("hello");
+  setTimeout(()=>{
+    console.log("hi");
+    setTimeout(()=>{
+      console.log("Hola");
+    },2000)
+  },2000)
+},2000)
