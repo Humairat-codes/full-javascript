@@ -209,6 +209,77 @@ const JSobj = JSON.parse(text2);
 
 // dates and time
 
-const d = new Date();
-console.log(d);
+// const d = new Date();
+// console.log(d,d.getHours(),d.getMinutes(),d.getSeconds(),d.getMilliseconds(),d.getTimezoneOffset(),d.getMonth(),d.getTime(),d.getUTCDate(),d.getUTCDay());
+// console.log(d.toDateString());
+// console.log(d.toISOString());
+// console.log(d.toLocaleString());
 
+// setInterval
+// let count = 0;
+// const id = setInterval(()=>{
+//   count++;
+//   console.log(count);
+  
+//   if(count==5){
+//     clearInterval(id);
+//     console.log("done");
+    
+//   }
+
+// },1000)
+
+
+// setTimeout
+// console.log("loading...");
+
+// let id = setTimeout(()=>{
+//   console.log("loaded successfully");
+  
+// },3000)
+// clearTimeout(id);
+
+
+// template Strings - ``$
+// let name1 = "Dora";
+// console.log(`heyy`);
+// console.log(`
+//   hi
+//   hola
+//   te amo`);
+// console.log(`hello, I am ${name1}`);
+// console.log(`number : ${2+2*5/5}`);
+const poem = `The quick
+Brown fox
+jumps over
+the lazy dog`;
+let fn1 = "Ash";
+let ln1  = "Ketchum";
+// console.log(poem);
+// console.log(`Hello ${fn1} ${ln1}`);
+// ARROW FUNCTIONS
+
+function greetings(name){
+  console.log(`hello ${name}`);
+}
+
+greetings1 = (name) => {
+  console.log(`hello ${name}`);
+}
+
+// greetings1("Shinchan");
+
+
+greetings3 = name => {
+  console.log(`hello ${name}`);
+}
+// Uncaught TypeError: greetings4 is not a function
+// greetings4 = name,age => {
+//   console.log(`hello ${name}, you are ${age} years old`);
+// }
+
+// greetings4("Henry",20)
+// greetings3("Barbie");
+
+double = number  => number *2;
+console.log(double(100));
