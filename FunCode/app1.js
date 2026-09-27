@@ -337,7 +337,7 @@
 //   {
 //     console.log("low");
 //   }
-    
+
 // }
 // ratings()
 
@@ -351,9 +351,43 @@
 //   console.log(a);
 //   console.log(b);
 //   console.log(c);
-//   console.log(d);  
+//   console.log(d);
 // }
 
 // const colors = ["red","black","green","pink"];
 // getMe4(...colors);
+// const list = ["Alex","Satoru","Elias","Michael"]
+// const all = ["Jack",...list,"Jake"]
+// console.log(all);
+// const obj1 = {name:"Barbie",age:19};
+// const obj2 = {hobbies:["Singing","Dancing","Reading","Surfing","Modelling","Travelling","Storytelling","Painting","Fashion Designing"]}
+// const obj3 = {address:"NY street 123"}
+// const obj4 = {quote:"Anything is Possible"}
+// const obj5 = {siblings:12}
+// const obj6 = {...obj1,...obj2,...obj3,...obj4,...obj5}
+// const obj8 = {obj1,obj2,obj3,obj4}
+// console.log(obj6);
+// console.log(obj8);
 
+// let arr = [1,2,3];
+// let arr2 = [4,5];
+// let clone1 = [...arr,...arr2];
+// console.log(clone1);
+
+// const user ={
+//     name:"Jen",
+//     age:23
+// }
+// const clone ={...user};
+// console.log(clone);
+
+// function users_spot(name, ...data) {
+//   console.log(name);
+//   console.log(data);
+// }
+// users_spot("Barbie", 19,"singing", "dancing","Actress",
+// );
+
+const data = [1,2,3,4,5,6];
+const [a,b,c,d,...e] =data;
+console.log(a,b,c,d,e);
