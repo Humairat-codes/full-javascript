@@ -388,6 +388,113 @@
 // users_spot("Barbie", 19,"singing", "dancing","Actress",
 // );
 
-const data = [1,2,3,4,5,6];
-const [a,b,c,d,...e] =data;
-console.log(a,b,c,d,e);
+// const data = [1,2,3,4,5,6];
+// const [a,b,c,d,...e] =data;
+// const [a,,,d,...e] =data;
+// console.log(a,b,c,d,e);
+
+// function f(){
+//     return [56,99]
+// }
+// const [a,b,c] = f();
+// console.log(a,b,c);
+
+// const colors = ["r","g","b","y","o"];
+// const [c1,c2,...c3] = colors;
+// console.log(c1,c2,c3);
+
+// const person = {
+//   name: "John Doe",
+//   age: 30,
+//   gender: "M",
+//   country: "USA",
+// };
+// const { name, gender, age, country } = person;
+// console.log(name, gender, age, country);
+
+// const data = {x:100,y:200};
+// const {x:d1,y:d2}=data;
+// console.log(d1,d2);
+
+
+// condition ? true : false
+// let pswd = 22;
+// const ret = pswd>=8?"strong":"weak";
+
+// console.log(ret);
+
+// let p = {
+//     name:"ABC",
+//     age:20
+// }
+// for(let key in p){
+//     console.log(key,":",p[key]);
+// }
+// let l = ["gsfjk","rweat","dzT","siuytrb"]
+// for(let i in l){
+//     console.log(i,":",l[i]);
+    
+// }
+
+// const obj = {
+//     a:1,b:2,c:3
+// };
+// for(let i in obj){
+//     console.log(i,":",obj[i]);
+// }
+
+// let people = ["Humaira","Huxn","Alex","Jason"]
+// for(let p of people){
+//     console.log(p);  
+// }
+
+// const text = "Omnix";
+// for(let t of text){
+//     console.log(t);
+    
+// }
+// let a = [1,2,3];
+// for(let i of a){
+//     console.log(i);
+// }
+
+// const colors = ["teal","blue","green","pink"]
+
+// for(let c of colors){
+//     console.log(c);
+// }
+// colors.forEach((color)=>{
+// console.log(color);
+// })
+
+// const words = [
+//   "apple", "banana", "cherry", "date", "elderberry", 
+//   "fig", "grape", "honeydew", "kiwi", "lemon", 
+//   "mango", "nectarine", "orange", "papaya", "quince"
+// ];
+// const newCapWords = words.forEach((w,i,arr)=>{
+//     arr[i] = w.toUpperCase();
+// })
+// console.log(words);
+// 
+// const x = [1,2,3,4,5,6,7,8,9,10];
+// // 10(11)/2=5*11=55
+
+// let sum = 0;
+
+// x.forEach((num)=>{
+//     sum+=num;
+// })
+// console.log(sum);
+// let arr = [1,2,3,4,5];
+// let dub = arr.map((x)=>{
+//     return x*2;
+// })
+// console.log(dub);
+// let a = [99,101,199,300,200,46,59,83,49,50,28,46,58,13];
+// let m10 = a.map((aa)=>{
+// return aa * 10;
+// })
+// console.log(m10);
+
+
