@@ -416,7 +416,6 @@
 // const {x:d1,y:d2}=data;
 // console.log(d1,d2);
 
-
 // condition ? true : false
 // let pswd = 22;
 // const ret = pswd>=8?"strong":"weak";
@@ -433,7 +432,7 @@
 // let l = ["gsfjk","rweat","dzT","siuytrb"]
 // for(let i in l){
 //     console.log(i,":",l[i]);
-    
+
 // }
 
 // const obj = {
@@ -445,13 +444,13 @@
 
 // let people = ["Humaira","Huxn","Alex","Jason"]
 // for(let p of people){
-//     console.log(p);  
+//     console.log(p);
 // }
 
 // const text = "Omnix";
 // for(let t of text){
 //     console.log(t);
-    
+
 // }
 // let a = [1,2,3];
 // for(let i of a){
@@ -468,15 +467,15 @@
 // })
 
 // const words = [
-//   "apple", "banana", "cherry", "date", "elderberry", 
-//   "fig", "grape", "honeydew", "kiwi", "lemon", 
+//   "apple", "banana", "cherry", "date", "elderberry",
+//   "fig", "grape", "honeydew", "kiwi", "lemon",
 //   "mango", "nectarine", "orange", "papaya", "quince"
 // ];
 // const newCapWords = words.forEach((w,i,arr)=>{
 //     arr[i] = w.toUpperCase();
 // })
 // console.log(words);
-// 
+//
 // const x = [1,2,3,4,5,6,7,8,9,10];
 // // 10(11)/2=5*11=55
 
@@ -496,5 +495,43 @@
 // return aa * 10;
 // })
 // console.log(m10);
+
+// filter
+// const songs = [
+//   { name: "Human Nature", duration: "5:55" },
+//   { name: "On Top of the World", duration: "6:30" },
+//   { name: "Smooth Criminal", duration: "8:02" },
+//   { name: "Billie Jean", duration: "4:54" },
+//   { name: "Earth Songs", duration: "5:00" },
+// ];
+
+// const small = songs.filter((s)=>{
+//     return s.duration <="5:00";
+// })
+// const large = songs.filter((s)=>{
+//     return s.duration > "5:00";
+// })
+// console.log(small);
+// console.log(large);
+
+// const ages = [32,39,18,40]
+// ;
+// const adult = ages.filter((a)=>{
+//     return a>18;
+// })
+// console.log(adult);
+
+
+
+// const words = [
+//   "apple", "banana", "cherry", "date", "elderberry",
+//   "fig", "grape", "honeydew", "kiwi", "lemon",
+//   "mango", "nectarine", "orange", "papaya", "quince"
+// ];
+// let w = words.filter((ww)=>{
+//     return ww.length > 6;
+// })
+
+// console.log(w);
 
 
