@@ -521,8 +521,6 @@
 // })
 // console.log(adult);
 
-
-
 // const words = [
 //   "apple", "banana", "cherry", "date", "elderberry",
 //   "fig", "grape", "honeydew", "kiwi", "lemon",
@@ -534,4 +532,127 @@
 
 // console.log(w);
 
+// const ppl = [
+//     { name: "Larp", age: 28 },
+//     { name: "Priya", age: 34 },
+//     { name: "Arjun", age: 41 },
+//     { name: "Sneha", age: 25 },
+//     { name: "Larp", age: 28 }
+// ];
+// const larp = ppl.find((p)=>{
+//   return p.name === "Larp";
+// })
+// console.log(larp);
+
+// const ages = [3, 10, 18, 20];
+// const a = ages.filter((as) => {
+//   return as >= 18;
+// });
+// console.log(a);
+
+// const people = [
+//   { name: "Larp", age: 28 },
+//   { name: "Priya", age: 34 },
+//   { name: "Arjun", age: 41 },
+//   { name: "Sneha", age: 25 },
+//   { name: "Larp", age: 28 },
+// ];
+
+// let ppl = people.find((l) => {
+//   return l.name === "Larp";
+// });
+// console.log(ppl);
+
+// const ppl = ["Larp", "Priya", "Arjun", "Sneha", "Larp"];
+
+// const all = ppl.every((p)=>{
+//   return p.length ===4;
+// })
+// console.log(all); false
+
+// const all = ppl.some((p)=>{
+//   return p.length ===4;
+// })
+// console.log(all); true
+
+// const songs = [
+//   { name: "Human Nature", duration: 5.55 },
+//   { name: "On Top of the World", duration: 6.30 },
+//   { name: "Smooth Criminal", duration: 8.02 },
+//   { name: "Billie Jean", duration: 4.54 },
+//   { name: "Earth Songs", duration: 5.00 },
+// ];
+
+// const ss = songs.every((s)=>{
+//   return s.duration > 4.00
+// })
+// console.log(ss);
+// const ss = songs.some((s)=>{
+//   return s.duration > 8.00
+// })
+// console.log(ss);
+
+// let products = [
+//   { name: "Checkers", category: "Toys" },
+//   { name: "Harry Potter", category: "Books" },
+//   { name: "iPhone", category: "Electronics" },
+//   { name: "Learn PHP", category: "Books" },
+// ];
+// let all = products.every((p) => p.category === "Books");
+
+// let few = products.some((p) => {
+//   return p.category === "Books";
+// });
+
+// console.log(all);
+// console.log(few);
+
+// let ar = [5, 6, 4, 3, 2, 8, 1, 9, 7, 10];
+// // console.log(ar);
+// let sum = ar.reduce((p, c) => {
+//   console.log(p,"+",c);
+//   return p + c;
+// });
+
+// console.log(sum);
+
+// let a = [1, 2, 3, 4, 5];
+// let prod = a.reduce((p, c) => {
+//   return p * c;
+// }, 1);
+// console.log(prod);
+
+// const map1 = new Map();
+// console.log(map1);
+
+// const i = [1, 2, 3, 4, 5, 5, 4, 3, 2, 1, 3, 2, 1, 3];
+// let s = new Set(i);
+// s.add("hey");
+// s.add("hey");
+// s.add("hey");
+// s.add("hi");
+// s.add("salam");
+// for(let u of s){
+//     console.log(u);
+
+// }
+// s.delete("hi")
+// s.clear();
+// console.log(s);
+
+// const letters = ['a','b','c'];
+
+// const myLetters = new Set(letters);
+// for(let l of myLetters){
+//     console.log(l);
+// }
+// const s1 = Symbol("%");
+// const s2= Symbol("%");
+// console.log(s1===s2);
+
+// const s = Symbol("foo");
+// console.log(typeof s);
+// const obj = {};
+// obj['s'] = s
+// console.log(obj); 
 
