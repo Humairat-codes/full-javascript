@@ -53,3 +53,37 @@
 
 // const p3 = document.querySelector(".p3");
 // console.log(p3.innerHTML);
+
+// const h1 = document.querySelector("h1");
+// h1.classList.add("styles");
+// h1.classList.add("five");
+// h1.classList.remove("styles");
+// h1.classList.remove("five");
+// h1.classList.toggle("styles");
+// h1.classList.toggle("five");
+// h1.classList.toggle("styles");
+// h1.classList.toggle("five");
+// console.log(h1.classList);
+
+// const a = document.querySelector("a");
+// a.href = "https://www.youtube.com/@meow-codes201";
+// a.target = "_blank";
+// console.log(a.href);
+// const input = document.querySelector("input");
+// input.value = "hellllo";
+// input.type = "password";
+
+// console.log(input.type);
+
+// console.log(input.getAttribute("value"));
+// input.value = "";
+// input.setAttribute("placeholder", "Enter strong password");
+
+// const a = document.querySelector("a");
+// const hhref = a.getAttribute("href");
+// console.log(hhref);
+
+// const a2 = document.querySelector(".a-2");
+
+// a2.setAttribute("href","https://www.youtube.com/@meow-codes201")
+// console.log(a2.href);
