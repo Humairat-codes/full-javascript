@@ -1,0 +1,29 @@
+body {
+  background-color: #343a40;
+}
+.p1 {
+  border: 8px solid #355e3b;
+  padding: 10px;
+  text-align: center;
+  background-color: #d6c6ad;
+}
+#p2 {
+  color: #000;
+  border: 8px solid #64748b;
+  padding: 10px;
+  text-align: center;
+  background-color: #d6c6ad;
+}
+.p3 {
+  color: #000;
+  border: 8px solid #7b3f4b;
+  padding: 10px;
+  text-align: center;
+  background-color: #d6c6ad;
+}
+.em{
+    color: red;
+}
+.span{
+    color: #7b3f4b;
+}
