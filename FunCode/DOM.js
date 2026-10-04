@@ -87,3 +87,26 @@
 
 // a2.setAttribute("href","https://www.youtube.com/@meow-codes201")
 // console.log(a2.href);
+
+// const ul = document.querySelector("ul");
+// const li = document.querySelector("li");
+// const fo = document.querySelector(".fo");
+// console.log(li.parentElement.parentElement.parentElement.parentElement);
+
+// console.log((ul.children[0].innerText = "one"));
+// console.log(ul.children[4]);
+
+// let fli = document.querySelector("li");
+// console.log(fli.textContent);
+// console.log(fli.nextElementSibling.textContent);
+// console.log(fli.nextElementSibling.nextElementSibling.textContent);
+// console.log(fli.nextElementSibling.nextElementSibling.nextElementSibling.textContent);
+// console.log(fli.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.textContent);
+// console.log(fli.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.textContent);
+
+// let fo = document.querySelector(".fo");
+// console.log(fo.textContent);
+// console.log(fo.previousElementSibling.textContent);
+// console.log(fo.previousElementSibling.previousElementSibling.textContent);
+// console.log(fo.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
+// console.log(fo.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
