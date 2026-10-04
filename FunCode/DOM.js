@@ -110,3 +110,10 @@
 // console.log(fo.previousElementSibling.previousElementSibling.textContent);
 // console.log(fo.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
 // console.log(fo.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent);
+
+// style in JS
+// const h1 = document.querySelector("h1");
+// console.log(h1.style);
+// h1.style.color = "teal";
+// h1.style.backgroundColor = "lightpink";
+
