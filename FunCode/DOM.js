@@ -177,3 +177,33 @@
 
 // s.removeChild(i);
 // s.remove()
+
+const bt = document.querySelector("button");
+const sb = document.querySelector(".sb");
+const bw = document.querySelector(".bw");
+const para = document.querySelector(".para");
+
+// function a(){
+//     alert("BEST WAYYYYYYYYYY")
+// }
+// sb.onclick = function () {
+//   alert("hey");
+// };
+
+// bw.addEventListener("click",()=>{
+//     console.log("HELLO");
+// })
+// para.addEventListener('click',(e)=>{
+//     console.log(e);
+
+// })
+
+// const i = document.querySelector("input");
+// i.addEventListener("click", (e) => {
+//   console.log(e);
+// });
+// const form = document.querySelector("form");
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   console.log(e);
+// });
