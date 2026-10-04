@@ -117,3 +117,63 @@
 // h1.style.color = "teal";
 // h1.style.backgroundColor = "lightpink";
 
+// const ctr = document.querySelector(".ctr");
+// const main = document.querySelector(".main");
+// const sub = document.querySelector(".sub");
+// const btn = document.querySelector(".btn");
+
+// ctr.style.height = "400px";
+
+// ctr.style.backgroundColor = "teal";
+// main.style.color = "skyblue";
+// sub.style.fontFamily = "sans-serif";
+// sub.style.color = "white";
+// btn.style.color = "pink";
+
+// const h1 = document.createElement("h1");
+// const body = document.body;
+// h1.textContent = "Hello World";
+// h1.classList.add("head");
+// h1.style.color = "forestgreen";
+// body.appendChild(h1);
+
+// console.log(h1.classList);
+
+// const ul = document.createElement("ul");
+// const newLi = document.createElement("li");
+// newLi.innerText = "Li Lo Ve Yo";
+// ul.appendChild(newLi);
+// const lii = document.createElement("li");
+// lii.innerText = "xoxo";
+// ul.insertBefore(newLi, lii);
+
+// const ul = document.querySelector("ul");
+// const newLi = document.createElement("li");
+// newLi.innerText = "Hello";
+// ul.insertBefore();
+// ul.appendChild(newLi);
+// const faLi = document.querySelector("li");
+
+// ul.insertBefore( newLi,faLi);
+
+// const p = document.querySelector("p");
+// const i = document.createElement("i");
+// i.innerText = "italic";
+// p.insertAdjacentElement("beforeend", i);
+// p.insertAdjacentElement("beforebegin", i);
+// p.insertAdjacentElement("afterbegin", i);
+// p.insertAdjacentElement("afterend", i);
+
+// append
+// prepend
+// const s = document.querySelector("section");
+
+// const i = document.createElement("i");
+// i.innerText = "HEYYYYY";
+// const sp = document.createElement("span");
+// sp.innerText = "Haoao";
+// s.append(i, sp);
+// s.prepend(i, sp);
+
+// s.removeChild(i);
+// s.remove()
